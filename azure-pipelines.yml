@@ -1,6 +1,6 @@
 # .azure-pipelines/azure-pipelines.yml
 trigger:
-- main
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
