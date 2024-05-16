@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: redhat-latest
+  vmImage: Hosted Agent
 
 steps:
 - task: SonarQubePrepare@5
