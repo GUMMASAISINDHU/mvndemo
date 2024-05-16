@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Hosted Agent
+  vmImage: ubuntu_latest
 
 steps:
 - task: SonarQubePrepare@5
